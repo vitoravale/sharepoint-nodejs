@@ -1,0 +1,24 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "node-cache": "^5.1.0",
+    "node-sp-auth": "^2.5.7"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "nodemon server.mjs"
+  },
+  "keywords": [],
+  "author": "Vitor A. Vale <vitoravale@outlook.com> (http://www.vitoravale.com.br)",
+  "license": "MIT",
+  "type": "module",
+  "private": true
+}
